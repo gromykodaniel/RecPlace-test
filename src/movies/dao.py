@@ -3,6 +3,7 @@ from src.database import async_session_maker
 from src.movies.models import Favorites
 from sqlalchemy import delete, insert, select
 
+
 class FavoritesDAO(BaseDAO):
     model = Favorites
 
